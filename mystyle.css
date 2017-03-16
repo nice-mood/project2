@@ -1,0 +1,17 @@
+#menu{
+background-color: lightblue; 
+float: left;
+widht: 150px ;
+
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li a:hover {
+background-color: white;
+
+}
+#content{
+
+    margin-left: 160px; 
+}
