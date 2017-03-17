@@ -1,7 +1,7 @@
 #menu{
 background-color: lightblue; 
 float: left;
-widht: 150px ;
+width: 150px ;
 
 }
 #menu ul{
@@ -12,6 +12,5 @@ background-color: white;
 
 }
 #content{
-
-    margin-left: 160px; 
+ margin-left: 160px; 
 }
