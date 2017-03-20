@@ -3,7 +3,7 @@
 	{
 	 $dsn = "mysql:host=localhost;dbname=company";
 	 $db = new PDO ($dsn, "webuser", "webpass");
-	// print ("Connected\n");
+	 //print ("Connected\n");
 	}
 	catch (PDOException $e)
 	{
@@ -11,4 +11,4 @@
 	 print ("Error code: " . $e->getCode () . "\n");
 	 print ("Error message: " . $e->getMessage () . "\n");
 	}
-	?>
+?>

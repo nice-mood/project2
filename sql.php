@@ -16,6 +16,20 @@
     INSERT INTO customers(firstname,lastname,streetadress) VALUES('Ann', 'Smith','Central street 20');
     INSERT INTO customers(firstname,lastname,streetadress) VALUES('Tom', 'Jones','Garden street 10');
 
+   CREATE TABLE cats(
+       id_cats SMALLINT PRIMARY KEY auto_increment,
+       name VARCHAR (30),
+       color VARCHAR (20),
+       id_customers SMALLINT,
+       FOREIGN KEY (id_customers) REFERENCES customers(id_customers)
+       ON DELETE RESTRICT ON UPDATE CASCADE) Engine=InnoDB ;
+
+    INSERT INTO cats (name, color, id_customers)
+    VALUES ('Garfield', 'orange', 3);
+    INSERT INTO cats (name, color, id_customers)
+    VALUES ('HelloKitty', 'pink', 4)   ;
+   
+
 </pre>
 
 
