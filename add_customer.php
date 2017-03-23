@@ -2,7 +2,7 @@
 
 <h2>Add Customers</h2>
 
-<form class="" action="customers.php" method="post">
+<form class="" action="insert_customer.php" method="post">
     <label for="fn">Firstname</label> <br />
     <input type="text" name="fn" id="fn" value="" required><br />
 

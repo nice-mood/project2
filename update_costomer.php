@@ -6,7 +6,7 @@
 include "connect.php";
 $sql="SELECT * FROM customers WHERE id_customers=".$_GET['id'];
 $result=$db->query($sql);
-$theArray = $result->fetch(PDO::FETCH_ASSOC);
+$theArray=$result->fetch(PDO::FETCH_ASSOC);
 $fn=$theArray['firstname'];
 $ln=$theArray['lastname'];
 $st=$theArray['streetadress'];

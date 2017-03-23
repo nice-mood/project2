@@ -20,6 +20,7 @@
 <li><a href="add_customer.php">Add Customers</a></li>
 <li><a href="update_costomer.php">Edit Customers</a></li>
 <li><a href="cats.php">Cats</a></li>
+<li><a href="edit_customers.php">edit customers</a></li>
 
 </ul>
 </div>
